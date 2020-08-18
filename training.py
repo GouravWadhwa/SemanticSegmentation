@@ -8,7 +8,7 @@ import time
 import cv2
 import random
 
-from Model import Model
+from Models.SegNetModel import Model
 from dataset import Dataset
 
 from tqdm import tqdm
