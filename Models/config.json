@@ -1,0 +1,16 @@
+{
+    "TRAIN_FILE": "SegNet/CamVid/train.txt",
+    "VAL_FILE": "SegNet/CamVid/val.txt",
+    "TEST_FILE": "SegNet/CamVid/test.txt",
+    "IMG_PREFIX": ".",
+    "LABEL_PREFIX": ".",
+    "BAYES": true,
+    "OPT": "ADAM",
+    "SAVE_MODEL_DIR": "./segnet_vgg_bayes_MFL_17000/model.ckpt-17000",
+    "INPUT_HEIGHT": 256,
+    "INPUT_WIDTH": 256,
+    "INPUT_CHANNELS": 3,
+    "NUM_CLASSES": 21,
+    "USE_VGG": false,
+    "BATCH_SIZE": 1
+  }
